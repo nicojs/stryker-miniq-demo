@@ -7,7 +7,7 @@
   "scripts": {
     "gulp": "ts-node -F node_modules/gulp/bin/gulp",
     "clean": "rm -rf build",
-    "t": "npm run karma -- --single-run",
+    "test": "npm run karma",
     "karma": "karma start",
     "stryker": "stryker run stryker.conf.js",
     "killzombieproc": "node killzombieproc",

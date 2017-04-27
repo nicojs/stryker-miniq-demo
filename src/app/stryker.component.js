@@ -5,7 +5,7 @@ function isTruthy(value) {
 function sum(...args) {
     let result = 0;
     let i = args.length;
-    while (i--) {
+    while (i++) {
         result += args[i];
     }
     return result;
