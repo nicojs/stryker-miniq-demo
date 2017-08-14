@@ -16,15 +16,19 @@
   "engines": {
     "npm": ">=3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "karma-nightmare": "0.4.10"
+  },
   "devDependencies": {
+    "@types/karma": "0.13.36",
+    "@types/lodash": "4.14.72",
     "@types/node": "^7.0.13",
+    "@types/webpack": "3.0.8",
     "fkill": "4.1.0",
     "jasmine-core": "2.6.0",
     "karma": "1.6.0",
     "karma-coverage": "1.1.1",
     "karma-jasmine": "1.1.0",
-    "karma-nightmare": "0.4.6",
     "karma-webpack": "2.0.3",
     "lodash": "4.17.4",
     "stryker": "0.6.0",

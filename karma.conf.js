@@ -1,10 +1,7 @@
-import * as _ from 'lodash';
-import { Config } from 'karma';
-import { Configuration } from 'webpack';
 
-export = (config: any) => {
+module.exports = (config) => {
 
-    const karma: Config = config;
+    const karma = config;
 
     karma.set({
         files: [
@@ -21,9 +18,6 @@ export = (config: any) => {
     });
 
     config.set({
-        mime: {
-            'text/x-typescript': ['ts', 'tsx'],
-        },
         nightmareOptions: {
             width: 800,
             height: 600,
@@ -34,5 +28,4 @@ export = (config: any) => {
             stats: 'minimal'
         }
     });
-
 };
